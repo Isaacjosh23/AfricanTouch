@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Font Awesome Icon Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- CSS Files -->
+    <link href="style.css" rel="stylesheet" />
+    <link href="../src/global.css" rel="stylesheet" />
+
+    <!-- JavaScript -->
+    <script src="js/script.js" defer></script>
+
+    <title>AfricanTouch</title>
+  </head>
+  <body class="font-Montserrat overflow-x-hidden">
+    <header
+      class="p-8 md:p-12 md:py- header bg-[#FAFAFA] relative lg:px-16 xl:px-28 z-10"
+    >
+      <div class="flex items-center justify-between">
+        <div>
+          <a href="#">
+            <img
+              src="img/logo/AfricanTouch.png"
+              alt="logo"
+              class="w-40 md:w-48 xl:w-64"
+            />
+          </a>
+        </div>
+
+        <!-- Mobile Nav -->
+        <nav
+          class="main-nav absolute top-0 left-0 w-full h-screen z-[45] bg-white flex items-center justify-center smooth-trans invisible opacity-0 pointer-events-nones translate-x-[102%] md:relative md:h-auto md:z-[0] md:visible md:opacity-100 md:translate-x-0 md:bg-transparent md:w-auto"
+        >
+          <ul
+            class="flex flex-col md:flex-row md:justify-between items-center justify-center gap-12"
+          >
+            <li>
+              <a
+                href="#"
+                class="text-2xl font-bold text-colorOrange-0 md:text-black md:hover:text-colorOrange-0 md:active:text-colorOrange-0 font-Poppins xl:text-3xl smooth-trans"
+                >Home</a
+              >
+            </li>
+
+            <li>
+              <a
+                href="#"
+                class="text-2xl font-bold text-colorOrange-0 md:text-black md:hover:text-colorOrange-0 md:active:text-colorOrange-0 font-Poppins xl:text-3xl smooth-trans"
+                >Product</a
+              >
+            </li>
+
+            <li>
+              <a
+                href="#"
+                class="text-2xl font-bold text-colorOrange-0 md:text-black md:hover:text-colorOrange-0 md:active:text-colorOrange-0 font-Poppins xl:text-3xl smooth-trans"
+                >FAQ</a
+              >
+            </li>
+
+            <li>
+              <a
+                href="#"
+                class="text-2xl font-bold text-colorOrange-0 md:text-black md:hover:text-colorOrange-0 md:active:text-colorOrange-0 font-Poppins xl:text-3xl smooth-trans"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+
+        <!-- Mobile Nav Buttons -->
+        <button
+          class="btn-mobile-nav z-50 block cursor-pointer bg-none border-none md:hidden"
+        >
+          <ion-icon
+            name="menu-outline"
+            class="text-5xl text-colorGrey-0 icon-mobile-nav block open-mobile-nav"
+          ></ion-icon>
+
+          <ion-icon
+            name="close-outline"
+            class="text-5xl text-colorGrey-0 icon-mobile-nav hidden close-mobile-nav"
+          ></ion-icon>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section
+        class="py-8 ml:py-14 md:py-16 lg:py-36 bg-[#FAFAFA] md:bg-[url('img/hero/Rectangle-48.png')] bg-cover bg-center bg-no-repeat section-hero xl:py-60"
+      >
+        <div class="flex flex-col gap-20 container ml:px-16 lg:px-24">
+          <div class="flex flex-col gap-14">
+            <div class="flex flex-col gap-8 text-center">
+              <h1
+                class="font-bold text-[2rem] md:text-[4.2rem] md:leading-[5rem] md:text-white tracking-[-0.5px] xl:text-[5rem] xl:leading-[6rem]"
+              >
+                Wear the Culture, Own the Story. Celebrate Africa in Every
+                Stitch.
+              </h1>
+
+              <p
+                class="font-medium text-p md:text-[1.6rem] md:text-white text-colorGrey-0 xl:text-[2rem]"
+              >
+                Authentic African fashion, handcrafted with heritage.
+              </p>
+            </div>
+
+            <div class="text-center">
+              <a
+                href="#"
+                class="bg-[#FA4A0C] text-white py-2 px-8 md:py-4 md:px-10 rounded-[3rem] btn md:text-2xl xl:text-[1.8rem] xl:py-6 xl:px-10"
+                >Shop Now</a
+              >
+            </div>
+          </div>
+
+          <div class="flex justify-center">
+            <img
+              src="img/hero/Rectangle 49.png"
+              alt="fabrics photo"
+              class="w-80 ml:w-96 md:hidden"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="py-8 ml:py-14 md:py-16 lg:py-36">
+        <div
+          class="container text-center md:text-start ml:px-16 md:px-24 md:grid md:grid-cols-2 lg:px-24 xl:items-center"
+        >
+          <div class="md:flex md:items-center md:justify-center">
+            <img
+              src="img/hero/Rectangle 49.png"
+              alt="fabrics"
+              class="hidden md:block md:w-[26rem] xl:w-[35rem]"
+            />
+          </div>
+
+          <div>
+            <h3
+              class="font-Poppins capitalize font-bold text-[2rem] md:text-[2.7rem] mb-4 lg:text-5xl xl:text-[4rem]"
+            >
+              our brand story
+            </h3>
+
+            <span
+              class="block font-bold text-p md:text-2xl text-colorOrange-0 mb-6 lg:text-[1.7rem] xl:text-[2rem]"
+              >Rooted in heritage, crafted for today.</span
+            >
+
+            <p
+              class="font-medium text-p leading-[2.65rem] md:text-[1.4rem] lg:text-2xl lg:leading-[2.8rem] xl:text-[1.7rem]"
+            >
+              Our brand celebrates Africa’s rich culture through timeless
+              fashion. Each piece tells a story —woven with tradition, inspired
+              by modern style, and handcrafted by skilled artisans. We believe
+              in fashion with meaning, where every stitch carries the spirit of
+              Africa. Wear the culture.
+            </p>
+          </div>
+
+          <hr class="mt-11 border-[1.5px] rounded-lg md:col-[-3/-1] xl:mt-40" />
+        </div>
+      </section>
+
+      <section class="py-8 ml:py-14 md:py-16 lg:py-36">
+        <div class="container text-center ml:px-16 md:px-24 lg:px-24 relative">
+          <div class="mb-10 md:mb-24 lg:mb-40 xl:mb-56">
+            <h3
+              class="font-Poppins capitalize font-bold text-[2rem] mb-4 md:text-[2.7rem] lg:text-5xl xl:text-[4rem]"
+            >
+              featured collections
+            </h3>
+
+            <span
+              class="font-bold text-p text-colorOrange-0 md:text-2xl lg:text-[1.7rem] xl:text-[2rem]"
+              >Explore varieties</span
+            >
+          </div>
+
+          <div
+            class="relative w-full overflow-hidden py-10 m-auto carousel-container"
+          >
+            <div
+              class="carousel-track relative flex w-full h-96 carousel-track"
+            >
+              <div class="">
+                <img
+                  src="img/featured/Rectangle 51.png"
+                  alt="featured-img"
+                  class="absolute w-1/3 h-full object-cover carousel-img rounded-3xl"
+                />
+              </div>
+
+              <div class="">
+                <img
+                  src="img/featured/Rectangle 51.png"
+                  alt="featured-img"
+                  class="absolute w-1/3 h-full object-cover carousel-img rounded-3xl"
+                />
+              </div>
+
+              <div class="">
+                <img
+                  src="img/featured/Rectangle 52.png"
+                  alt="featured-img"
+                  class="absolute w-1/3 h-full object-cover carousel-img rounded-3xl"
+                />
+              </div>
+            </div>
+          </div>
+
+          <button>
+            <ion-icon
+              name="chevron-back-circle-outline"
+              class="text-[2rem] absolute top-[58%] left-[2rem] translate-x-[-50%] translate-y-[-50%] z-[5] cursor-pointer carousel-backward md:text-5xl md:left-[8rem] lg:text-6xl xl:text-7xl md:top-[62%] lg:top-[66%] xl:top-[69%]"
+            ></ion-icon>
+            <ion-icon
+              name="chevron-forward-circle-outline"
+              class="text-[2rem] absolute top-[58%] right-[2rem] translate-x-[50%] translate-y-[-50%] z-[5] cursor-pointer carousel-forward md:text-5xl md:right-[8rem] lg:text-6xl xl:text-7xl md:top-[62%] lg:top-[66%] xl:top-[69%]"
+            ></ion-icon>
+          </button>
+
+          <hr class="mt-11 border-[1.5px] rounded-lg md:hidden" />
+        </div>
+      </section>
+
+      <section class="py-8 ml:py-14 md:py-16 md:bg-colorOrange-0 lg:py-24">
+        <div class="container text-center md:text-start ml:px-16 md:px-36">
+          <div
+            class="md:flex md:items-center md:justify-center md:gap-7 md:mb-9"
+          >
+            <h3
+              class="capitalize font-Poppins font-bold text-[2rem] md:text-white mb-4 md:text-[2.7rem] lg:text-5xl xl:text-[4rem]"
+            >
+              why choose us?
+            </h3>
+
+            <hr
+              class="hidden md:block md:border-[1.5px] md:rounded-lg md:w-[38rem] md:text-[#ffcab8]"
+            />
+          </div>
+
+          <div
+            class="flex flex-col items-center gap-8 md:grid md:grid-cols-2 xl:gap-x-24 xl:gap-y-12"
+          >
+            <!-- One -->
+            <div>
+              <span
+                class="font-bold text-p text-colorOrange-0 md:text-[#FFCAB8] md:text-[1.4rem] lg:text-2xl xl:text-[1.8rem]"
+                >1. Authentic African Craftsmanship</span
+              >
+
+              <p
+                class="font-medium text-p leading-[2.65rem] md:text-white xl:text-[1.6rem]"
+              >
+                Handcrafted by African artisans, preserving tradition and
+                culture.
+              </p>
+            </div>
+
+            <!-- Two -->
+            <div>
+              <span
+                class="font-bold text-p text-colorOrange-0 md:text-[#FFCAB8] md:text-[1.4rem] lg:text-2xl xl:text-[1.8rem]"
+                >2. Modern Meets Tradition</span
+              >
+
+              <p
+                class="font-medium text-p leading-[2.65rem] md:text-white xl:text-[1.6rem]"
+              >
+                Blending African heritage with contemporary fashion trends.
+              </p>
+            </div>
+
+            <hr class="hidden md:block md:col-[1/-1] md:my-6" />
+
+            <!-- Three -->
+            <div>
+              <span
+                class="font-bold text-p text-colorOrange-0 md:text-[#FFCAB8] md:text-[1.4rem] lg:text-2xl xl:text-[1.8rem]"
+                >3. Worldwide Shipping</span
+              >
+
+              <p
+                class="font-medium text-p leading-[2.65rem] md:text-white xl:text-[1.6rem]"
+              >
+                Bringing authentic African fashion to your doorstep, anywhere.
+              </p>
+            </div>
+
+            <!-- Four -->
+            <div>
+              <span
+                class="font-bold text-p text-colorOrange-0 md:text-[#FFCAB8] md:text-[1.4rem] lg:text-2xl xl:text-[1.8rem]"
+                >4. Loved by Thousands</span
+              >
+
+              <p
+                class="font-medium text-p leading-[2.65rem] md:text-white xl:text-[1.6rem]"
+              >
+                Handcrafted by African artisans, preserving tradition and
+                culture.
+              </p>
+            </div>
+
+            <hr class="hidden md:block md:col-[1/-1] md:my-6" />
+
+            <!-- Five -->
+            <div>
+              <span
+                class="font-bold text-p text-colorOrange-0 md:text-[#FFCAB8] md:text-[1.4rem] lg:text-2xl xl:text-[1.8rem]"
+                >5. Premium Quality</span
+              >
+
+              <p
+                class="font-medium text-p leading-[2.65rem] md:text-white xl:text-[1.6rem]"
+              >
+                Made with the finest fabrics for comfort, durability, and style.
+              </p>
+            </div>
+
+            <!-- Six -->
+            <div>
+              <span
+                class="font-bold text-p text-colorOrange-0 md:text-[#FFCAB8] md:text-[1.4rem] lg:text-2xl xl:text-[1.8rem]"
+                >6. Sustainable & Ethical
+              </span>
+
+              <p
+                class="font-medium text-p leading-[2.65rem] md:text-white xl:text-[1.6rem]"
+              >
+                Highly rated by customers worldwide who celebrate African
+                fashion.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="py-8 bg-[#fa4a0c] ml:py-14 md:bg-[url('img/bottom-section/Rectangle-47.png')] md:bg-cover md:bg-center md:bg-no-repeat md:h-[27rem] md:flex md:items-center lg:py-36"
+      >
+        <div
+          class="container text-center flex flex-col items-center gap-8 xl:gap-20 ml:px-16 lg:px-24"
+        >
+          <div class="flex flex-col items-center gap-5">
+            <h1
+              class="text-[2rem] font-bold text-white lg:text-[2.7rem] xl:text-[3.5rem]"
+            >
+              Wear the Culture. Own the Story. 🔥
+            </h1>
+
+            <p
+              class="font-medium text-p text-white lg:text-[1.4rem] xl:text-2xl"
+            >
+              Experience the beauty of African fashion— bold, timeless, and
+              uniquely yours.
+            </p>
+          </div>
+
+          <div>
+            <a
+              href="#"
+              class="capitalize btn bg-white py-4 px-8 rounded-2xl md:hover:text-white md:hover:bg-colorOrange-0 md:active:bg-[#fb6e3d] md:active:text-white smooth-trans xl:text-2xl xl:py-6 xl:px-10"
+              >shop now</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <footer class="py-8 ml:py-14">
+        <div
+          class="container text-center ml:px-16 md:grid md:grid-cols-3 md:items-center md:mb-9"
+        >
+          <div class="hidden md:block">
+            <a href="#">
+              <img
+                src="img/logo/AfricanTouch.png"
+                alt="logo"
+                class="w-64 xl:w-72"
+              />
+            </a>
+          </div>
+
+          <div class="flex items-center justify-center gap-5 mb-7 md:mb-0">
+            <a
+              href="#"
+              class="text-4xl md:text-5xl text-colorOrange-0 xl:text-[3.5rem]"
+            >
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+
+            <a
+              href="#"
+              class="text-4xl md:text-5xl text-colorOrange-0 xl:text-[3.5rem]"
+            >
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+
+            <a
+              href="#"
+              class="text-4xl md:text-5xl text-colorOrange-0 xl:text-[3.5rem]"
+            >
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </div>
+
+          <p
+            class="text-[1rem] font-bold font-Roboto md:text-[1.3rem] text-colorGrey-0 xl:text-[1.6rem]"
+          >
+            #wearafrica <span class="md:block"> #africatouch </span>
+          </p>
+        </div>
+
+        <div class="hidden md:flex md:items-center md:justify-center">
+          <p class="md:text-[1rem] md:font-semibold xl:text-[1.3rem]">
+            &copy; <span class="year">2024</span> AfricanTouch. All rights
+            reserved.
+          </p>
+        </div>
+      </footer>
+    </main>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
