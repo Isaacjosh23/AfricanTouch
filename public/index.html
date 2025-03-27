@@ -82,15 +82,15 @@
         <button
           class="btn-mobile-nav z-50 block cursor-pointer bg-none border-none md:hidden"
         >
-          <ion-icon
+          <i
+            class="fa-solid fa-bars text-[2.8rem] text-colorGrey-0 icon-mobile-nav block open-mobile-nav"
             name="menu-outline"
-            class="text-5xl text-colorGrey-0 icon-mobile-nav block open-mobile-nav"
-          ></ion-icon>
+          ></i>
 
-          <ion-icon
+          <i
+            class="fa-solid fa-xmark text-[2.8rem] text-colorGrey-0 icon-mobile-nav hidden close-mobile-nav"
             name="close-outline"
-            class="text-5xl text-colorGrey-0 icon-mobile-nav hidden close-mobile-nav"
-          ></ion-icon>
+          ></i>
         </button>
       </div>
     </header>
@@ -222,14 +222,13 @@
           </div>
 
           <button>
-            <ion-icon
-              name="chevron-back-circle-outline"
-              class="text-[2rem] absolute top-[58%] left-[2rem] translate-x-[-50%] translate-y-[-50%] z-[5] cursor-pointer carousel-backward md:text-5xl md:left-[8rem] lg:text-6xl xl:text-7xl md:top-[62%] lg:top-[66%] xl:top-[69%]"
-            ></ion-icon>
-            <ion-icon
-              name="chevron-forward-circle-outline"
-              class="text-[2rem] absolute top-[58%] right-[2rem] translate-x-[50%] translate-y-[-50%] z-[5] cursor-pointer carousel-forward md:text-5xl md:right-[8rem] lg:text-6xl xl:text-7xl md:top-[62%] lg:top-[66%] xl:top-[69%]"
-            ></ion-icon>
+            <i
+              class="fa-solid fa-circle-chevron-left text-[2rem] absolute top-[58%] left-[2rem] translate-x-[-50%] translate-y-[-50%] z-[5] cursor-pointer carousel-backward md:text-5xl md:left-[8rem] lg:text-6xl xl:text-[4rem] md:top-[62%] lg:top-[66%] xl:top-[69%]"
+            ></i>
+
+            <i
+              class="fa-solid fa-circle-chevron-right text-[2rem] absolute top-[58%] right-[2rem] translate-x-[50%] translate-y-[-50%] z-[5] cursor-pointer carousel-forward md:text-5xl md:right-[8rem] lg:text-6xl xl:text-[4rem] md:top-[62%] lg:top-[66%] xl:top-[69%]"
+            ></i>
           </button>
 
           <hr class="mt-11 border-[1.5px] rounded-lg md:hidden" />
