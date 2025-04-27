@@ -7,9 +7,9 @@ AfricanTouch is an online store celebrating authentic African fashion through ti
 Visit [AfricanTouch](https://africantouch.netlify.app/)
 
 🛠️ Built With
- - HTML5
+ - HTML
 
- - CSS3
+ - Tailwind CSS
 
  - JavaScript
 
